@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Assets/logo (2).png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi, I'm <span>Harsh <br />Singh</span>
+            from India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--page 2 start from here-->
+    <div id="about">
+      <div class="conatiner">
+        <div class="row">
+          <div class="about-co1-1">
+            <img src="Assets/About.png" />
+          </div>
+          <div class="about-co1-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am full-stack webdeveloper,specializes in designing
+              sophisticated digital solutions. Proficient in JavaScript
+              frameworks, HTML, CSS, and back-end technologies.Known for
+              excellent team work. I aim to ensure that visitors to my website
+              have a seamless and enjoyable experience.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('eduaction')">Eduaction</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI?Ux</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />
+                  Web Developer at Tripfox Travel
+                </li>
+                <li>
+                  <span>2023-2024</span><br />Aam Admi Party Content writer
+                </li>
+                <li>
+                  <span>2024-current</span><br />Wordpress developer at Tarbo
+                  digital
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="eduaction">
+              <ul>
+                <li>
+                  <span>2020</span><br />High School from Morition Public School
+                </li>
+                <li>
+                  <span>2022</span><br />Senior Secondary Eduaction from
+                  Morition Public School
+                </li>
+                <li>
+                  <span>2022-current</span><br />B.Tech From SRM University
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--page 3 starts here-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>
+              I craft visually stunning websites that prioritize seamless user
+              experiences. With a keen eye for design trends, I ensure your
+              website stands out in the digital landscape. My focus on
+              performance optimization and SEO drives visibility and engagement
+              for your online presence.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX</h2>
+            <p>
+              I specialize in creating intuitive user interfaces that seamlessly
+              guide users through their digital journey. With a deep
+              understanding of user needs and behaviors, I design interfaces
+              that prioritize simplicity and efficiency. My focus on
+              user-centered design ensures that every interaction is meaningful,
+              enhancing overall satisfaction and engagement.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Wordpress</h2>
+            <p>
+              I excel in leveraging the power of WordPress to create beautifully
+              functional websites tailored to your unique needs. With expertise
+              in WordPress development, I craft customizable and scalable
+              solutions that empower your online presence. From custom themes to
+              plugin integration, I deliver WordPress websites that are both
+              visually appealing and technically robust.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- page 4 starts from here-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Assets/ work1 (1).png" />
+            <div class="layer">
+              <h3>Guess My Number</h3>
+              <p>
+                Embark on a thrilling guessing adventure with our addictive
+                'Guess My Number' game, where every guess brings you closer to
+                victory!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Assets/ work1 (2).png" />
+            <div class="layer">
+              <h3>Rajasthan Tourism</h3>
+              <p>
+                Discover the vibrant tapestry of colors, culture, and history in
+                Rajasthan, India's 'Land of Kings'. From majestic palaces to
+                golden deserts, every corner tells a story waiting to be
+                explored
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Assets/ work1 (3).png" />
+            <div class="layer">
+              <h3>BCCI Clone</h3>
+              <p>
+                Experience the thrill of cricket like never before with our BCCI
+                clone platform, offering all the latest news, match updates, and
+                exclusive content straight from the heart of Indian cricket
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!--page 5 starts from here -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>harsh31102005@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>9301264769</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/gaharwar.harsh31"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/HARSHSI08864515"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/gaharwar_harsh31/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/harsh-singh-73758325a/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="Assets/my.cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright © Harsh. Made with <i class="fa-solid fa-heart"></i> by
+          Harsh Singh. Pitaji And Maa My
+          <i class="fa-solid fa-earth-americas"></i> is around you.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
