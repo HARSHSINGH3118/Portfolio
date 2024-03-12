@@ -24,7 +24,7 @@ function closemenu() {
 
 //code for getting the contact detail in google form
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbxu6sKKgO8T742u4coOXnBREnwU1pmqEfFg_Rb3hAT-VfFqt4s26nDuvAjFziqZPgd6/exec";
+  "https://script.google.com/macros/s/AKfycbyIH2jk4nkBD2F1Y_oOIidy9R8tDLIeHRoi2qBdQoZqxkD8TjMt6UVoUTY-aV-B2nTfQQ/exec";
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("msg");
 
